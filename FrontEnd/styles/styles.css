@@ -1,0 +1,15 @@
+table{
+    border: 1px, solid;
+}
+
+td {
+    background-color: #808080 ;
+}
+
+#col4 {
+    color:  #008000;
+}
+
+#row2 #col4 {
+    color: #000000
+}
