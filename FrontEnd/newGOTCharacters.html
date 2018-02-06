@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Add New GOT Character</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+
 </head>
 <body>
-    <form>
+    <form id="gotForm">
         <input type="text" id="nameCharacter" required>
-        <select id="house">
+        <br><br>
+        House of: <select id="house">
             <option value="lannister">
                 Lannister
             </option>
@@ -24,15 +24,19 @@
             <option value="tyrell">
                 Tyrell
             </option>
-        </select>
+        </select><br>
         <input type="radio" name="gender" id="gender" value="male">Male<br>
-        <input type="radio" name="gender" id="gender" value="female">Female<br>
-        <textarea name="message" rows="20" cols="50">
-
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <br><br>
+        <textarea id="characterText" name="message" rows="20" cols="50">
         </textarea>
+        <br><br>
         <button id="daButton">
             "Submit"
         </button>
     </form>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,5 +1,12 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 table{
     border: 1px, solid;
+    background-color: cadetblue;
 }
 
 td {
@@ -12,4 +19,16 @@ td {
 
 #row2 #col4 {
     color: #000000
+}
+
+#wolves {
+    font-size: 1.3em;
+}
+
+#characterText {
+    border-style: dotted;
+}
+
+#gotForm {
+    margin: 3px;
 }
