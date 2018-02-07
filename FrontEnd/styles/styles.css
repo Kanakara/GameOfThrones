@@ -21,8 +21,18 @@ td {
     color: #000000
 }
 
+#list1 {
+    display: inline-block;
+}
+
+#characters {
+    font-size: 1.3em;
+}
+
 #wolves {
     font-size: 1.3em;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-style: dotted;
 }
 
 #characterText {
